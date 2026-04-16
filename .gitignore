@@ -1,0 +1,24 @@
+# --- Python / Backend Specifics ---
+backend/venv/
+backend/__pycache__/
+backend/*.py[cod]
+backend/.pytest_cache/
+
+# --- Node.js / Frontend Specifics ---
+frontend/node_modules/
+node_modules/
+frontend/.next/
+frontend/dist/
+frontend/build/
+
+# --- Logs & System ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Secrets (Crucial for Rasa/Backend) ---
+# Ensure these aren't sensitive before committing, 
+# or add them here if they contain API keys:
+# backend/credentials.yml
+# backend/endpoints.yml
+
